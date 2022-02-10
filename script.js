@@ -56,17 +56,17 @@ Plant3.prototype.getAddInfo = function () {
 var plant = new Plant1('Роза', 'Красный цветок с шипами на стебле', 'Дамасская', 'Три года', 'Альба', '6-7 см');
 var plant2 = new Plant2('Виноград', 'Сладкие белые ягоды', 'Грузинский', 'Пять лет', 'Ркацители', '3-5 см', 'Не опасна', 'Передняя_Азия');
 var plant3 = new Plant3('Сосна', 'Дерево остистое межгорное', 'Ламберта', 'до 5000 лет', '-', '82 м', "Не опасна", "Северная Америка", "В строительстве", "Петикантроп");
-// console.log(plant.getInfo());
-// console.log(plant.getDescriptionAndTitle());
-// console.log(plant2.getInfo());
-// console.log(plant2.getDescriptionAndTitle());
-// console.log(plant2.getTitleHazardClas());
-// console.log(plant2.getAreaOfGrowth());
-// console.log(plant3.getInfo());
-// console.log(plant3.getDescriptionAndTitle());
-// console.log(plant3.getAdditionallyInfo());
-// console.log(plant3.getTitleIzUsed());
-// console.log(plant3.getAreaOfGrowth() + plant3.getAddInfo());
+console.log(plant.getInfo());
+console.log(plant.getDescriptionAndTitle());
+console.log(plant2.getInfo());
+console.log(plant2.getDescriptionAndTitle());
+console.log(plant2.getTitleHazardClas());
+console.log(plant2.getAreaOfGrowth());
+console.log(plant3.getInfo());
+console.log(plant3.getDescriptionAndTitle());
+console.log(plant3.getAdditionallyInfo());
+console.log(plant3.getTitleIzUsed());
+console.log(plant3.getAreaOfGrowth() + plant3.getAddInfo());
 
 function Laptop(name, model, serialNumber, yearOfManufacture, ramSize, romSize, mass, drive, webcam, amountOfRam, amountOfRom) {
    this.name = name;
